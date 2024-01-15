@@ -2,16 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SprintMovement : MonoBehaviour, IMovement
+public class SprintMovement : AbstractMovement
 {
-    [SerializeField] private float movementSpeed = 5.0f;
-    private Vector3 moveDirection;
-
-    public void UpdatePosition(Vector2 movementInput, CharacterController characterController)
+    [SerializeField] private int staminaDrain = 10;
+    public override void UpdatePosition(Vector2 movementInput, CharacterController characterController, StaminaController playerStamina)
     {
-        float directionY = moveDirection.y;
-        moveDirection = (transform.TransformDirection(Vector3.forward) * movementInput.y) + (transform.TransformDirection(Vector3.right) * movementInput.x);
-        moveDirection.y = directionY;
-        characterController.Move(moveDirection * movementSpeed * Time.deltaTime);
+        playerStamina.DrainStamina(staminaDrain);
+        base.UpdatePosition(movementInput, characterController, playerStamina);
     }
 }

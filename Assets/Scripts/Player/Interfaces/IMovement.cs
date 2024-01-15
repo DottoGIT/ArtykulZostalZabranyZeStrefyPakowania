@@ -4,5 +4,5 @@ using UnityEngine;
 
 public interface IMovement
 {
-    void UpdatePosition(Vector2 movementInput, CharacterController characterController);
+    void UpdatePosition(Vector2 movementInput, CharacterController characterController, StaminaController playerStamina);
 }

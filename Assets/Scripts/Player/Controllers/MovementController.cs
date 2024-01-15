@@ -1,20 +1,20 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.UI;
 
 /* Movement Controller is responsible for switching betweeen current movement type */
 
 public class MovementController : MonoBehaviour
 {
+    public bool canMove { get; private set; } = true;
+
     [SerializeField] private CharacterController characterController;
-    
-    [Header("Sprint settings")]
-    [SerializeField] private KeyCode sprintButton = KeyCode.LeftShift;
-    [SerializeField] private int staminaDrain = 10;
     
     private StaminaController playerStamina;
     private IMovement currentMovement;
-
+    
     private void Awake()
     {
         currentMovement = GetComponent<IMovement>();
@@ -25,25 +25,35 @@ public class MovementController : MonoBehaviour
         playerStamina = staminaController;
     }
 
-    public void UpdatePosition(Vector3 moveInput)
+    public void UpdatePosition()
     {
         LookForChangeInCurrentMovement();
+        currentMovement.UpdatePosition(GetInput(), characterController, playerStamina);
+    }
 
-        currentMovement.UpdatePosition(moveInput, characterController);
+    private Vector2 GetInput()
+    {
+        return new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     }
 
     private void LookForChangeInCurrentMovement()
     {
-        // Look for sprint
-        if(Input.GetKey(sprintButton) && playerStamina.currentStamina > 0)
+        // Look for crouch
+        if(Input.GetKey(GlobalInput.instance.crouchButton))
         {
-            ChangeCurrentMovement<SprintMovement>();
-            playerStamina.DrainStamina(staminaDrain * Time.deltaTime);
+            ChangeCurrentMovement<CrouchMovement>();
             return;
         }
 
-        ChangeCurrentMovement<NormalMovement>();
+        // Look for sprint
+        if(Input.GetKey(GlobalInput.instance.sprintButton) && playerStamina.currentStamina > 0)
+        {
+            ChangeCurrentMovement<SprintMovement>();
+            return;
+        }
 
+        // Otherwise change to normal movement
+        ChangeCurrentMovement<NormalMovement>();
     }
 
     private void ChangeCurrentMovement<T>() where T : MonoBehaviour, IMovement
