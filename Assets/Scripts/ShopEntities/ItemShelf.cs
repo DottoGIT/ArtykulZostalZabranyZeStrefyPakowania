@@ -18,6 +18,7 @@ public class ItemShelf : MonoBehaviour, IInteractable
     {
         particle.Stop();
         canInteract = false;
+        GlobalItems.instance.CollectItem(item);
     }
 
     public bool CanInteract()
