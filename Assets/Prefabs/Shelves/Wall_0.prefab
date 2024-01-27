@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1324608818959526734}
   - component: {fileID: 1656262648401403311}
   - component: {fileID: 7020895107851671902}
-  - component: {fileID: 836825338814050063}
+  - component: {fileID: -8268993866229572423}
   m_Layer: 0
   m_Name: Wall_0
   m_TagString: Untagged
@@ -331,7 +331,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2692282615703873460}
   m_Mesh: {fileID: 0}
---- !u!64 &836825338814050063
+--- !u!64 &-8268993866229572423
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

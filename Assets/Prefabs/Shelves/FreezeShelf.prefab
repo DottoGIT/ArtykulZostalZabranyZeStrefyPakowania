@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1718812034738662280}
   - component: {fileID: 4737588886124076008}
   - component: {fileID: 9029215062720699528}
-  - component: {fileID: 380985265661988750}
+  - component: {fileID: -8196786969892561379}
   m_Layer: 0
   m_Name: FreezeShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117399965932472272}
   m_Mesh: {fileID: 0}
---- !u!64 &380985265661988750
+--- !u!64 &-8196786969892561379
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5883729369253177288}
   - component: {fileID: 1651599614822739777}
   - component: {fileID: 631864391003214759}
-  - component: {fileID: 1197898818798517140}
+  - component: {fileID: 9220940051659803654}
   m_Layer: 0
   m_Name: WegeShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7006239377767943557}
   m_Mesh: {fileID: 0}
---- !u!64 &1197898818798517140
+--- !u!64 &9220940051659803654
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

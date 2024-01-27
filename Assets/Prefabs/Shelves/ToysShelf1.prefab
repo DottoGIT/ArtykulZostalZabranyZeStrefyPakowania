@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9138644987761510646}
   - component: {fileID: 5990785421849619242}
   - component: {fileID: 3151716169483215569}
-  - component: {fileID: 1537650893176523500}
+  - component: {fileID: -4176053228186706271}
   m_Layer: 0
   m_Name: ToysShelf1
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515839097172476066}
   m_Mesh: {fileID: 0}
---- !u!64 &1537650893176523500
+--- !u!64 &-4176053228186706271
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

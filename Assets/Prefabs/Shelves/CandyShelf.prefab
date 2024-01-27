@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4431766637455582752}
   - component: {fileID: 6397196517688040824}
   - component: {fileID: 8138104204078294079}
-  - component: {fileID: 1645334587751410216}
+  - component: {fileID: -1217680992522431258}
   m_Layer: 0
   m_Name: CandyShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549332397502862467}
   m_Mesh: {fileID: 0}
---- !u!64 &1645334587751410216
+--- !u!64 &-1217680992522431258
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

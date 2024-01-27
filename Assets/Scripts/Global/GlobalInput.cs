@@ -9,17 +9,18 @@ public class GlobalInput : MonoBehaviour
 
     public KeyCode sprintButton;
     public KeyCode crouchButton;
+    public KeyCode interactButton;
 
     private void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            DontDestroyOnLoad(this);
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(this);
         }
     }
 }

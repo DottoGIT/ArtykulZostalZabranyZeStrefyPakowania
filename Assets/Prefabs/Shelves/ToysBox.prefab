@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 653616941697642584}
   - component: {fileID: 316871120527634196}
   - component: {fileID: 7729302105959759888}
-  - component: {fileID: 8764704125645501016}
+  - component: {fileID: 8598163407951239733}
   m_Layer: 0
   m_Name: ToysBox
   m_TagString: Untagged
@@ -2971,7 +2971,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8806857945820255434}
   m_Mesh: {fileID: 0}
---- !u!64 &8764704125645501016
+--- !u!64 &8598163407951239733
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

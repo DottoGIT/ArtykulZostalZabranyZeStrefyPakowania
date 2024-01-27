@@ -5,7 +5,7 @@ using UnityEngine;
 public class AbstractView : MonoBehaviour, IView
 {
     [SerializeField, Range(1, 10)] private float mouseSensivity = 2.0f;
-    [SerializeField, Range(1, 180)] private float lookLimit = 80.0f;
+    [SerializeField, Range(1, 180)] private float lookLimit = 55.0f;
 
 
     public virtual void UpdateCamera(ref float cameraRotationX, Vector2 mouseInput, Camera playerCamera, Transform cameraAnchor, Transform source)

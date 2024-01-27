@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4283738750416455792}
   - component: {fileID: 8193231091536166963}
   - component: {fileID: 666601201136358034}
-  - component: {fileID: 7517290425642508401}
+  - component: {fileID: 7772409405060367345}
   m_Layer: 0
   m_Name: WegeBox
   m_TagString: Untagged
@@ -2971,7 +2971,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6145180139631311623}
   m_Mesh: {fileID: 0}
---- !u!64 &7517290425642508401
+--- !u!64 &7772409405060367345
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

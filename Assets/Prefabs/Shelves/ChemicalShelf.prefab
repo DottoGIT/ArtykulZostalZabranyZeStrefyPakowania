@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5273472994333358736}
   - component: {fileID: 9129213955902886710}
   - component: {fileID: 6351121479525320888}
-  - component: {fileID: 8497192695699493588}
+  - component: {fileID: -5915596007274989598}
   m_Layer: 0
   m_Name: ChemicalShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8996232438153236207}
   m_Mesh: {fileID: 0}
---- !u!64 &8497192695699493588
+--- !u!64 &-5915596007274989598
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

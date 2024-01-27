@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7541640446785616478}
   - component: {fileID: 5755986258156233405}
   - component: {fileID: 8878040609154775767}
-  - component: {fileID: 3419914112319278557}
+  - component: {fileID: -4295836576108587139}
   m_Layer: 0
   m_Name: CansShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3012825365530183754}
   m_Mesh: {fileID: 0}
---- !u!64 &3419914112319278557
+--- !u!64 &-4295836576108587139
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

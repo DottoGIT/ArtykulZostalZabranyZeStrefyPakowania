@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7819410824079956878}
   - component: {fileID: 3076291381934956281}
   - component: {fileID: 5230956721564141786}
-  - component: {fileID: 5414065602138764209}
+  - component: {fileID: 8504274714872257918}
   m_Layer: 0
   m_Name: GrainsShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7020711757624230707}
   m_Mesh: {fileID: 0}
---- !u!64 &5414065602138764209
+--- !u!64 &8504274714872257918
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

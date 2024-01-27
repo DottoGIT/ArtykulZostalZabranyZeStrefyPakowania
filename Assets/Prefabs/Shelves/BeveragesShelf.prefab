@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5379515382008461306}
   - component: {fileID: 7602091955138758137}
   - component: {fileID: 8228401671513451746}
-  - component: {fileID: 166920254070161896}
+  - component: {fileID: 8810164502878816595}
   m_Layer: 0
   m_Name: BeveragesShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8869238987208729373}
   m_Mesh: {fileID: 0}
---- !u!64 &166920254070161896
+--- !u!64 &8810164502878816595
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

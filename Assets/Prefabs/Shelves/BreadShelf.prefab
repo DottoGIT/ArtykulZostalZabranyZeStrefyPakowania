@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7008985450315728696}
   - component: {fileID: 4197396938146278735}
   - component: {fileID: 98669612359468777}
-  - component: {fileID: 7027491050470334346}
+  - component: {fileID: 5469839845254649535}
   m_Layer: 0
   m_Name: BreadShelf
   m_TagString: Untagged
@@ -5131,7 +5131,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9207815945332778594}
   m_Mesh: {fileID: 0}
---- !u!64 &7027491050470334346
+--- !u!64 &5469839845254649535
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
